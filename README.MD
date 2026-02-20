@@ -66,3 +66,7 @@ index.js --> untuk menjalankan server bisa juga index.js
 5. Buat file routes/userRoutes.js untuk route API nya
 6. Buat file index.js untuk menjalankan server
 7. Test API pake api.rest pake extenstion REST.API
+
+
+### Tambahan Diluar
+Bisa juga gak pake nodemon, tapi pake `node --watch . index.js` , nanti kalo bisa restart kalo ada perubahan ketika di save
