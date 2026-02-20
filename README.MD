@@ -1,5 +1,5 @@
 # Dokumentasi
-File ini dibuat untuk membantu memahami konsep database dan ORM di Node.js menggunakan Sequelize
+File ini dibuat untuk membantu memahami konsep database dan ORM di Node.js menggunakan Prisma v6
 
 ## Prerequisite
 1. Nodejs
@@ -7,8 +7,8 @@ File ini dibuat untuk membantu memahami konsep database dan ORM di Node.js mengg
 
 ## Instalasi
 1. Setup projek node.js `npm init -y`
-2. install packagenya `npm install express mysql2 dotenv sequelize --save`
-3. install nodemon `npm i --save-dev nodemon`
+2. install nodemon `npm i --save-dev nodemon`
+3. install package lainnya 'npm i '
 
 ## Langkah Yang dilakukan
 1. Buat struktur foldernya dulu
