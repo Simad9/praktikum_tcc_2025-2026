@@ -1,5 +1,5 @@
 # Dokumentasi
-File ini dibuat untuk membantu memahami konsep database dan ORM di Node.js menggunakan Sequelize.
+File ini dibuat untuk membantu memahami konsep database dan ORM di Node.js menggunakan Sequelize
 
 ## Prerequisite
 1. Nodejs
