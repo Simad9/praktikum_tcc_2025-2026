@@ -1,6 +1,8 @@
 const express = require("express");
-const sequelize = require("./config/database");
 const userRoutes = require("./routes/userRoutes");
+const { PrismaClient } = require("@prisma/client");
+
+const prisma = new PrismaClient();
 
 const app = express();
 app.use(express.json());
@@ -14,7 +16,7 @@ app.use("/api/v1/users", userRoutes);
 
 // Sync Database & Start Server
 const port = process.env.PORT || 3000;
-sequelize.sync().then(() => {
-  console.log("Database synced");
-  app.listen(port, () => console.log(`Server running on port ${port}`));
+prisma.$connect().then(() => {
+  console.log("Database connected");
 });
+app.listen(port, () => console.log(`Server running on port ${port}`));

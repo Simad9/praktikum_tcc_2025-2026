@@ -1,19 +1,25 @@
-const { DataTypes } = require('sequelize');
-const sequelize = require('../config/database');
+const { PrismaClient } = require("@prisma/client");
+const prisma = new PrismaClient();
 
-const User = sequelize.define('User', {
-  username: {
-    type: DataTypes.STRING,
-    allowNull: false,
-    unique: true,
-    validate: { len: [3, 20] } // Best practice: validate at the model level
-  },
-  email: {
-    type: DataTypes.STRING,
-    allowNull: false,
-    unique: true,
-    validate: { isEmail: true }
-  }
-});
+const getAllUsers = async () => {
+  return await prisma.user.findMany({
+    select: {
+      id: true,
+      username: true,
+      email: true,
+      createdAt: true,
+      updatedAt: true,
+    },
+  });
+};
 
-module.exports = User;
+const createUser = async (userData) => {
+  return await prisma.user.create({
+    data: userData,
+  });
+};
+
+module.exports = {
+  getAllUsers,
+  createUser,
+};
