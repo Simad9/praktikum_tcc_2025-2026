@@ -7,8 +7,6 @@ const getAllUsers = async () => {
       id: true,
       username: true,
       email: true,
-      createdAt: true,
-      updatedAt: true,
     },
   });
 };
@@ -19,7 +17,34 @@ const createUser = async (userData) => {
   });
 };
 
+const getUserById = async (id) => {
+  return await prisma.user.findUnique({
+    where: { id: parseInt(id) },
+    select: {
+      id: true,
+      username: true,
+      email: true,
+    },
+  });
+}
+
+const updateUser = async (id, userData) => {
+  return await prisma.user.update({
+    where: { id: parseInt(id) },
+    data: userData,
+  });
+}
+
+const deleteUser = async (id) => {
+  return await prisma.user.delete({
+    where: { id: parseInt(id) },
+  });
+}
+
 module.exports = {
   getAllUsers,
   createUser,
+  getUserById,
+  updateUser,
+  deleteUser,
 };
