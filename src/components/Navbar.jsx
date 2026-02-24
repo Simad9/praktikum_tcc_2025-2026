@@ -5,7 +5,8 @@ export default function Navbar() {
     <>
       <nav>
         <Link to="/">Home</Link> | 
-        <Link to="/data"> Data</Link>
+        <Link to="/data"> Data</Link> | 
+        <Link to="/tambah-data"> Tambah Data</Link>
       </nav>
     </>
   )
