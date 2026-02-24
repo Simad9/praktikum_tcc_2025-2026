@@ -1,15 +1,27 @@
-# Praktikum TCC 2025/2026
-Repo ini digunakan untuk materi praktikum TCC 2025/2026
+# Dokumentasi
+File ini dibuat untuk membantu memahami ngoding aplikasi FE dengan Library React.js
 
-## Yang harus dilakukan Praktikan : 
-Silahkan buka branch pada repo ini untuk melihat materinya.\
-Karena materi bakal di upload di branch yang ada.
+## Prerequisite
+1. Nodejs
 
-## Yang harus dilakukan kolaborator / Aslab (Asisten Lab) :
-Membuat materi jangan lupa dibuat branch dulu baru ngoding ya.\
-Format branch `<pertemuan>_<nama_materi>`, contoh `pert2_prisma` --> materi untuk pertemuan 2 tentang ORM Prisma .
+## Instalasi
+1. Setup projek node.js `npm init -y`
+2. Install React Vite `npm create vite@latest .` kita gunakan `.` untuk menginstall di folder sekarang
+3. Setelah itu pilih yang `Ignore files and continue`, sesuai dengan yang kalian butuhkan 
+4. Lalu pilih `React` karena kita bakal buat projek react
+5. Lalu pilih `Javascript` karena kita pake bahasa javascript saja yagn mudah
+6. Pilih `No` karena masih beta skip dulu
+7. Pilih `No` lagi karena kita mau ngutak ngatik terlebih dahulu.
+8. Instlasi react berhasil
+  
+## Instlasi Opsional dan Wajib
+1. Untuk yang wajib adalah `axios` untuk fetch API / hit API / ngambil data dari API agar lebih mudah
+2. Commandnya itu `npm install axios`
+3. Untuk opsional untuk styling, disini admin pake `tailwind` karena bisa leluasa walau rumit. Dan kalian bisa nyoba styling yang lain
+4. Commandnya itu `npm install tailwindcss @tailwindcss/vite`
+5. Lalu settingnya ada di dokumentasi, dan cek file yang bersangkutan
 
-## List Materi : 
-1. Perkenalan TCC (Materi PPT doang)
-2. Membuat BE masih dilokal = Pake Sequelize atau Prisma untuk ORM
-3. Membuat BE dengan Cloud Storage
+## Instlasi Lanjutan 
+1. Untuk lanjutan adalah `react-router-dom` untuk routing pada halaman, atau perpindahan halaman
+
+## Langkah Yang dilakukan
