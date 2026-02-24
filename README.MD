@@ -24,4 +24,31 @@ File ini dibuat untuk membantu memahami ngoding aplikasi FE dengan Library React
 ## Instlasi Lanjutan 
 1. Untuk lanjutan adalah `react-router-dom` untuk routing pada halaman, atau perpindahan halaman
 
-## Langkah Yang dilakukan
+## Langkah-langkah utama yang dilakukan
+1. Kita akan bermain di file `src` dan ada yang perlu diubah agar saat maintance lebih nyaman. Ubah menjadi seperti ini.
+```
+assets/ --> untuk menaruh asset gambar atau lainnya
+components/ --> untuk menaruh component kayak button, card, dll
+pages/ --> untuk menaruh halaman kayak home, about, dll
+styles/ --> untuk menaruh styling kayak tailwind
+App.jsx --> Kita taruh untuk menaruh routesnya
+main.jsx --> File utama
+```
+2. Silahkan setting sesuai kebutuhan, disini admin ubah `index.html` untuk bagian judul tabnya, lalu bagian `main.jsx` diganti ke stylenya agar menjadi tailwind, lalu `App.jsx` buat testing tailwindnya jalan gak
+``` (App.jsx)
+function App() {
+  return (
+    <>
+      <h1 className='text-red-500'>Test</h1>
+    </>
+  )
+}
+
+export default App
+```
+3. Lalu setting untuk routes agar bisa pindah pindah halaman caranya ...
+4. Ubah `App.jsx` menjadi router, silahkan lihat filenya, lalu buat file `HomePage.jsx` di folder `src/pages` untu ktestingnya.
+5. 
+
+## Untuk Menjalankan
+1. `npm run dev` untuk menjalankan projeknya
