@@ -32,4 +32,9 @@ Format branch `<pertemuan>_<nama_materi>`, contoh `pert2_prisma` --> materi untu
 1. Prak TCC_Pert 1 - Perkenalan TCC dan IAM : [https://youtu.be/WLWoEUz3cpY](https://youtu.be/WLWoEUz3cpY)
 2. Prak TCC_Pert 2 - ORM Sequalize dan Prisma : [https://youtu.be/hXMKKPdKPHc](https://youtu.be/hXMKKPdKPHc)
 3. Prak TCC_Pert 3.1 - Migrasi Web (Service BE) : [https://youtu.be/zLbyLk2twJ8](https://youtu.be/zLbyLk2twJ8)
-4. Prak TCC_Pert 3.2. - Service Frontend (React) : [Proses Pembuatan]()
+4. Prak TCC_Pert 3.2. - Service Frontend (React) : [https://youtu.be/EPEGsstLX4Y](https://youtu.be/EPEGsstLX4Y)
+5. Prak TCC_Pert 4 - Linux dan IaaS : [Proses]()
+6. Prak TCC_Pert 5 - Docker : [Proses]()
+7. Prak TCC_Pert 6 - PaaS : [Proses]()
+
+
