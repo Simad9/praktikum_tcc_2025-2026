@@ -26,6 +26,8 @@ Format branch `<pertemuan>_<nama_materi>`, contoh `pert2_prisma` --> materi untu
 1. Perkenalan TCC (Materi PPT doang)
 2. Membuat BE masih dilokal = Pake Sequelize atau Prisma untuk ORM
 3. Membuat BE dengan Cloud Storage
+4. Belajar VM di Google Cloud Computing
+5. ...Proses...
 
 ## Link Video Praktikum (yang saya bikin) :
 
@@ -33,7 +35,7 @@ Format branch `<pertemuan>_<nama_materi>`, contoh `pert2_prisma` --> materi untu
 2. Prak TCC_Pert 2 - ORM Sequalize dan Prisma : [https://youtu.be/hXMKKPdKPHc](https://youtu.be/hXMKKPdKPHc)
 3. Prak TCC_Pert 3.1 - Migrasi Web (Service BE) : [https://youtu.be/zLbyLk2twJ8](https://youtu.be/zLbyLk2twJ8)
 4. Prak TCC_Pert 3.2. - Service Frontend (React) : [https://youtu.be/EPEGsstLX4Y](https://youtu.be/EPEGsstLX4Y)
-5. Prak TCC_Pert 4 - Linux dan IaaS : [Proses]()
+5. Prak TCC_Pert 4 - Linux dan IaaS : [https://www.youtube.com/watch?v=p13QP3oFxF4](https://www.youtube.com/watch?v=p13QP3oFxF4)
 6. Prak TCC_Pert 5 - Docker : [Proses]()
 7. Prak TCC_Pert 6 - PaaS : [Proses]()
 
