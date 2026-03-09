@@ -11,8 +11,13 @@ Karena materi bakal di upload di branch yang ada.
 Untuk clone bisa, clone per branch dengan command `git clone --branch <nama_branch> https://github.com/Simad9/praktikum_tcc_2025-2026` \
 Contoh command misal mau clone branch pert2_sequelize maka commandnya : 
 ```
-git clone --branch pert2_sequelize https://github.com/Simad9/praktikum_tcc_2025-2026`
+git clone --branch pert2_sequelize https://github.com/Simad9/praktikum_tcc_2025-2026
 ```
+Atau kalo mau clone dan langsung ubah nama foldernya bisa
+```
+git clone --branch pert2_sequelize https://github.com/Simad9/praktikum_tcc_2025-2026 pert2_sequelize
+```
+Langsung berubah dengna nama folder "pert2_sequelize" \
 Selanjutnya silahkan `npm i` untuk install packagenya. \
 Di repo ini, sepertinya untuk .env tidak di hide, jadi tidak perlu diubah, jika sewaktu tidak ada .env pasti saya buat untuk .env.example.
 
@@ -35,7 +40,7 @@ Format branch `<pertemuan>_<nama_materi>`, contoh `pert2_prisma` --> materi untu
 2. Prak TCC_Pert 2 - ORM Sequalize dan Prisma : [https://youtu.be/hXMKKPdKPHc](https://youtu.be/hXMKKPdKPHc)
 3. Prak TCC_Pert 3.1 - Migrasi Web (Service BE) : [https://youtu.be/zLbyLk2twJ8](https://youtu.be/zLbyLk2twJ8)
 4. Prak TCC_Pert 3.2. - Service Frontend (React) : [https://youtu.be/EPEGsstLX4Y](https://youtu.be/EPEGsstLX4Y)
-5. Prak TCC_Pert 4 - Linux dan IaaS : [https://www.youtube.com/watch?v=p13QP3oFxF4](https://www.youtube.com/watch?v=p13QP3oFxF4)
+5. Prak TCC_Pert 4 - IaaS (Linux DB Server & Deploy FE) : [https://youtu.be/s8rgvEfGAXs](https://youtu.be/s8rgvEfGAXs)
 6. Prak TCC_Pert 5 - Docker : [Proses]()
 7. Prak TCC_Pert 6 - PaaS : [Proses]()
 
