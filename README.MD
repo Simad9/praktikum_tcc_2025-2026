@@ -26,6 +26,9 @@ Di repo ini, sepertinya untuk .env tidak di hide, jadi tidak perlu diubah, jika 
 Membuat materi jangan lupa dibuat branch dulu baru ngoding ya.\
 Format branch `<pertemuan>_<nama_materi>`, contoh `pert2_prisma` --> materi untuk pertemuan 2 tentang ORM Prisma .
 
+## Bagi Projeknya yang belum berhasil
+- Cara Injection Projek TCC : [https://youtu.be/TRVhGr0z1z0](https://youtu.be/TRVhGr0z1z0)
+
 ## List Materi :
 
 1. Perkenalan TCC (Materi PPT doang)
