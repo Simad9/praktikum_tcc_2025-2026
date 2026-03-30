@@ -44,7 +44,7 @@ Format branch `<pertemuan>_<nama_materi>`, contoh `pert2_prisma` --> materi untu
 3. Prak TCC_Pert 3.1 - Migrasi Web (Service BE) : [https://youtu.be/zLbyLk2twJ8](https://youtu.be/zLbyLk2twJ8)
 4. Prak TCC_Pert 3.2. - Service Frontend (React) : [https://youtu.be/EPEGsstLX4Y](https://youtu.be/EPEGsstLX4Y)
 5. Prak TCC_Pert 4 - IaaS (Linux DB Server & Deploy FE) : [https://youtu.be/s8rgvEfGAXs](https://youtu.be/s8rgvEfGAXs)
-6. Prak TCC_Pert 5 - Docker : [Proses]()
+6. Prak TCC_Pert 5 - Docker : [https://youtu.be/kmzT5uON7HQ](https://youtu.be/kmzT5uON7HQ)
 7. Prak TCC_Pert 6 - PaaS : [Proses]()
 
 
