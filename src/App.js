@@ -1,17 +1,19 @@
-import UserList from "./components/UserList";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import AddUser from "./components/AddUser";
-import EditUser from "./components/EditUser";
-
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<UserList />} />
-        <Route path="add" element={<AddUser />} />
-        <Route path="edit/:id" element={<EditUser />} />
-      </Routes>
-    </BrowserRouter>
+    <section className="hero is-fullheight is-light">
+      <div className="hero-body">
+        <div className="container has-text-centered">
+          <p className="title is-1">Kubernetes Deployment Demo</p>
+          <p className="subtitle is-4">
+            selamat kamu berhasil deploy di kubernetes lesgoooo
+          </p>
+          <p className="is-size-6 has-text-grey">
+            Landing page ini dipakai untuk verifikasi bahwa aplikasi React sudah
+            berhasil jalan di Kubernetes.
+          </p>
+        </div>
+      </div>
+    </section>
   );
 }
 
