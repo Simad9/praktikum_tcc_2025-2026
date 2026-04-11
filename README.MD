@@ -35,7 +35,9 @@ Format branch `<pertemuan>_<nama_materi>`, contoh `pert2_prisma` --> materi untu
 2. Membuat BE masih dilokal = Pake Sequelize atau Prisma untuk ORM
 3. Membuat BE dengan Cloud Storage
 4. Belajar VM di Google Cloud Computing
-5. ...Proses...
+5. Belajar Docker
+6. Belajar Arsitektur Microservice & Kubernetes
+7. Belajar Deploy BE di Cloud Run & FE di App Engine
 
 ## Link Video Praktikum (yang saya bikin) :
 
@@ -45,6 +47,7 @@ Format branch `<pertemuan>_<nama_materi>`, contoh `pert2_prisma` --> materi untu
 4. Prak TCC_Pert 3.2. - Service Frontend (React) : [https://youtu.be/EPEGsstLX4Y](https://youtu.be/EPEGsstLX4Y)
 5. Prak TCC_Pert 4 - IaaS (Linux DB Server & Deploy FE) : [https://youtu.be/s8rgvEfGAXs](https://youtu.be/s8rgvEfGAXs)
 6. Prak TCC_Pert 5 - Docker : [https://youtu.be/kmzT5uON7HQ](https://youtu.be/kmzT5uON7HQ)
-7. Prak TCC_Pert 6 - PaaS : [Proses]()
+7. Prak TCC_Pert 6 - Microservice & Kubernetes : [https://youtu.be/opn9DkKWG1g](https://youtu.be/opn9DkKWG1g)
+8. Prak TCC_Pert 7 - PaaS (CI/CD Deploy di Cloud Run & App Engine) : [https://youtu.be/sEodXy9vDd8](https://youtu.be/sEodXy9vDd8)
 
 
